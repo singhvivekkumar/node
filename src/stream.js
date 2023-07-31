@@ -15,4 +15,4 @@ let middleStream = new transformStream.Transform({
 })
 
 let newReadableStream = fileStream.pipe(middleStream);
-newReadableStream.pipe(outputStream);
+newReadableStream.pipe(outputStream); 
